@@ -41,7 +41,7 @@ En este taller veremos qué es Docker, por qué es útil y necesario tanto en el
 
 | VMs                                  | Docker containers                              |
 | ------------------------------------ | ---------------------------------------------- |
-| <img src="slides_assets/Taller de Docker\ -\ VMs.png" width=300 alt="VMs"> | <img src="slides_assets/Taller de Docker - que es docker.png" width=450 alt="Docker">   |
+| <img src="slides_assets/Taller de Docker - VMs.png" width=300 alt="VMs"> | <img src="slides_assets/Taller de Docker - que es docker.png" width=450 alt="Docker">   |
 
 ---
 #### Terminología Docker
