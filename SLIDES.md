@@ -49,24 +49,26 @@ En este taller veremos qué es Docker, por qué es útil y necesario tanto en el
 
 | Término    | Representación                                         | Equivalente en VMs |
 | ---------- | ------------------------------------------------------ | ------------------ |
-| Imagen     | ![[Taller de Docker - imagen - contenedores.png\|200]] | Imagen ISO         |
+| Imagen     | <img src="slides_assets/Taller de Docker - imagen - contenedores.png" width=200 alt="image"> | Imagen ISO         |
 | Contenedor | -                                                      | Instancia VM       |
-| Volumen    | ![[Taller de Docker - volumen.png\|250]]               | Disco              |
+| Volumen    | <img src="slides_assets/Taller de Docker - volumen.png" width=250 alt="volumen">               | Disco              |
 
 ---
 #### Arquitectura de Docker
 
-![[Taller de Docker - arquitectura de docker.png]]
+<img src="slides_assets/Taller de Docker - arquitectura de docker.png" alt="arquitectura de docker">
 
 ---
 #### ¿Cómo inicio un contenedor de  Docker?
 
 - Hello world
+
 ```bash
 docker run hello-world
 ```
 
 - Interactivamente:
+
 ```bash
 docker run -it ubuntu bash
 ```
@@ -78,7 +80,7 @@ https://hub.docker.com/ (registro oficial de Docker, pero hay muchos más,...)
 
 |                                        |                                                                 |
 | -------------------------------------- | --------------------------------------------------------------- |
-| ![[Taller de Docker - Dockerfile.png]] | + Receta<br>+ Cada orden es una LAYER<br>+ Cada LAYER se cachea |
+| <img src="slides_assets/Taller de Docker - Dockerfile.png" alt="Taller de Docker - Dockerfile.png"> | + Receta<br>+ Cada orden es una LAYER<br>+ Cada LAYER se cachea |
 
 ```bash
 docker build . -t app:latest
@@ -97,7 +99,7 @@ docker image ls | grep app
 ---
 #### ¿Qué es Docker Compose?
 
-![[Taller de Docker - docker compose file.png|400]]
+<img src="slides_assets/Taller de Docker - docker compose file.png" width=400 alt="Taller de Docker - docker compose file.png|400">
 
 ---
 ## Contexto en el desarrollo de software
@@ -141,8 +143,7 @@ docker image ls | grep app
 - Testcontainers
 	- Librería para controlar Docker de manera programática desde un programa
 
-![[Taller de Docker - testcontainers.png|700]]
-
+<img src="slides_assets/Taller de Docker - testcontainers.png" width=700 alt="Taller de Docker - testcontainers.png|700">
 
 ---
 
@@ -152,14 +153,14 @@ docker image ls | grep app
 
 %% 
 
-![[Taller de Docker - uso real 1.png]]
+<img src="slides_assets/Taller de Docker - uso real 1.png" alt="Taller de Docker - uso real 1.png">
 
-![[Taller de Docker - 2.png]]
+<img src="slides_assets/Taller de Docker - 2.png" alt="Taller de Docker - 2.png">
 
-![[Taller de Docker - 3.png]]
+<img src="slides_assets/Taller de Docker - 3.png" alt="Taller de Docker - 3.png">
 
-![[Taller de Docker - 4.png]]
+<img src="slides_assets/Taller de Docker - 4.png" alt="Taller de Docker - 4.png">
 
-![[Taller de Docker - 5.png]]
+<img src="slides_assets/Taller de Docker - 5.png" alt="Taller de Docker - 5.png">
 
 %%
