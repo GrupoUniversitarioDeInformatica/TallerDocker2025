@@ -1,0 +1,25 @@
+include:
+  - ./monitoring.yaml
+  - ./ntfy.yaml
+services:
+  web:
+    build: .
+    container_name: web
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+    environment:
+      MONGO_URI: "mongodb://mongo:27017"
+      MAIN: main
+    depends_on:
+      - mongo
+  mongo:
+    image: mongo:7
+    container_name: mongo
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo-data:/data/db
+volumes:
+  mongo-data:
